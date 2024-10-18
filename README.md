@@ -1,4 +1,4 @@
-# Juspay dashboard app
+# Terraops dashboard app
 
 ## Tech Stack
 - HTML/CSS
