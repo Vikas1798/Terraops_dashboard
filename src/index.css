@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    @apply transition-colors duration-300
+} 
+
+
+/* scrollbar css */
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 2px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #d76161;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 10px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+
+
+.custome-box-shadow {
+    transition: all ease 0.3s;
+    box-shadow: 0 1px 2px 0 #3c40434d, 0 1px 3px 1px #3c404326;
+}
