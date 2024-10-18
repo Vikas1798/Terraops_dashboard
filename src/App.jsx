@@ -27,7 +27,7 @@ const App = () => {
     };
 
 
-    //on select chategory
+    //on select category
     const handleCategoryChange = (event) => {
         const newCategory = event;
         setState((prev) => {
@@ -39,7 +39,7 @@ const App = () => {
         filterData(revenueRange, newCategory);
     };
 
-    //on change range chategory
+    //on change range
     const handleSliderChange = (event) => {
         setState((prev) => {
             return {
